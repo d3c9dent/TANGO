@@ -1,0 +1,13 @@
+TANGO 0.3.1 public distribution contract
+
+Three independently versioned task slots use the exact prefixes \TANGO_TASK_1, \TANGO_TASK_2 and \TANGO_TASK_3. Preserve the user goal and distinguish partial, conditional, failed and independently verified complete results.
+
+After every ten completed substantive calculations, queue native preparation of all accessible existing project results. Catalogue and hash declared sources; read and deduplicate accepted results, failed routes, conditional assumptions, open obligations and unverified findings. Explicitly disclose unavailable or excluded material. Empty materials cannot be sealed. Scope and semantic completeness remain native attestations.
+
+An immutable summary and provenance must precede discussion. Five distinct native participant sessions must submit ten synchronous rounds, with five accepted posts before advancing each round. A structured direction decision queues the next computation. Meeting consensus is not a proof verdict.
+
+Use real native execution receipts. The Python broker performs no model inference, no external model calls and no native wake. Automatic execution requires an active native parent; unattended recovery requires a separately supported and verified platform wake mechanism. Do not represent queued work, simulation tests or a local daemon as actual native work.
+
+Preserve checkpoints, fences, original criteria, independent verification, pause/stop priority, cancellation reconciliation and transactional handoffs. Source or input changes invalidate affected inventories and discussions. Source-only installation must not overwrite live work mid-turn.
+
+This public contract replaces private historical request text in the portable distribution. No private project, conversation, credential or runtime database is part of this package.

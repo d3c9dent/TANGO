@@ -1,0 +1,46 @@
+{
+  "scope": "Fresh temporary installation only; no service installed or started; no model task executed",
+  "checks": [
+    {
+      "check": "read-only installer preflight",
+      "passed": true
+    },
+    {
+      "check": "code-only installation",
+      "passed": true
+    },
+    {
+      "check": "installed runtime version",
+      "passed": true
+    },
+    {
+      "check": "installed autonomous launcher help",
+      "passed": true
+    },
+    {
+      "check": "installed supervisor launcher help",
+      "passed": true
+    },
+    {
+      "check": "render Darwin user service without activation",
+      "passed": true
+    },
+    {
+      "check": "generated launchd plist syntax",
+      "passed": true
+    },
+    {
+      "check": "render Linux user service without activation",
+      "passed": true
+    },
+    {
+      "check": "installed autonomous status initializes isolated broker",
+      "passed": true
+    },
+    {
+      "check": "installed native diagnostic",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

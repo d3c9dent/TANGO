@@ -1,0 +1,23 @@
+{
+  "original_archive": "TANGO_0.3.1_Portable_Source.zip",
+  "original_archive_sha256": "ca32964f113e2c8da3e53eadeab6ef12c8ce27d78bc13196b1617d6afa191835",
+  "runtime_and_installer_byte_identical_to_original": false,
+  "retained_original_files": [
+    "program/service.py",
+    "installer/migration_check.py",
+    "installer/package.py",
+    "install.sh",
+    "baseline/tango_v013.py",
+    "spec/user_spec.txt"
+  ],
+  "changed_original_code_files": [
+    "program/tango.py",
+    "installer/install.py"
+  ],
+  "new_program_files": [
+    "program/autonomous.py",
+    "program/codex_backend.py",
+    "program/supervisor.py"
+  ],
+  "runtime_version": "0.4.0-autonomous"
+}

@@ -1,0 +1,19 @@
+TANGO 0.4.0 autonomous execution contract
+
+This extends the retained native-parent contract in user_spec.txt with a distinct, opt-in local Codex CLI backend. The old contract remains a byte-exact compatibility fixture; its queue-only/no-local-wake statements describe the original adapter, not the new autonomous runner.
+
+An authenticated user submits an original goal, optional explicit acceptance criteria, and declared read-only source roots. Submission intent is saved before broker creation and replayed idempotently after interruption. A per-home submission lock prevents concurrent requests from mixing goals and contracts. Only explicitly enrolled codex_cli tasks are executed by this runner.
+
+The runner repeatedly claims actual work, launches an installed authenticated Codex CLI, binds its observed session identity, records durable attempt journals, and waits for process and turn completion. A queued request, started process, heartbeat or started session alone is not a completed calculation. CLI receipts are labeled codex_cli, never as collaboration tool calls.
+
+There is no attempt-count limit. Recoverable failures retain checkpoints and trigger repair or replanning with backoff. A genuine permission, material, quota or goal-decision prerequisite waits for authenticated input and evidence-based rechecking. A repeated unsuccessful approach does not justify claiming completion. Each worker turn has a configurable timeout.
+
+Candidate artifacts require a fresh independent verification session. The verifier receives original criteria, authenticated inputs, declared source roots and actual artifacts, not the producer's private conversation. Completion requires version-bound verification of every original criterion and unchanged candidate artifacts. Partial, conditional and contrary results remain distinguishable from success.
+
+After ten substantive calculations, preserve the original mandatory source inventory and five-participant ten-round meeting protocol. Use real distinct CLI sessions, common prior-round context, and the full round barrier. A direction decision queues the next computation; discussion consensus is not mathematical proof.
+
+Pause, stop, source invalidation and changed input fence previous work. Recovery checks registered process identities before signalling or acknowledging old workers. Definite unlaunched claims, definite startup failure, known terminal processes and ambiguous launch gaps remain distinct. An ambiguous worker or uncertain external effect requires reconciliation instead of blind duplication. Workers must not launch detached processes or repeat uncertain external effects.
+
+The runner holds an exclusive home lock. Optional systemd user services or macOS LaunchAgents supervise it outside the chat, restart unsuccessful exits and preserve task state. Installation of such a service is an explicit deployment action. Logout, sleep, shutdown, network, storage, account capacity and platform policy still limit operation. No infinite resource or universal task-solvability guarantee is made.
+
+Keep runtime homes, credentials, prompts, private logs, task artifacts and account configuration outside the public source release. Model execution, process-fixture tests, full real-model meetings and OS-service deployment require separate evidence labels.

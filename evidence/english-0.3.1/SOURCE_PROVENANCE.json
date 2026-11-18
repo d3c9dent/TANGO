@@ -1,0 +1,18 @@
+{
+  "source_archive": "TANGO_0.3.1_Portable_Source.zip",
+  "source_archive_sha256": "ca32964f113e2c8da3e53eadeab6ef12c8ce27d78bc13196b1617d6afa191835",
+  "source_manifests_verified": {
+    "MANIFEST.sha256": 12,
+    "RELEASE_SHA256SUMS": 29
+  },
+  "byte_identical_to_supplied_archive": {
+    "program/tango.py": "3fe37c25f228e4f7564de95d575ab25bef941fb8cb725b1ad26e8a9c7a4f8814",
+    "program/service.py": "ef1d51b01d96ef88eb9de74b2e2c7e64fb5686f7c167f9f7af3ad305a8d59fdb",
+    "installer/install.py": "b14a2be362dbb6dfa6c2b39fd2b77b9e7083c08a8ca36c01d102a70509a339b2",
+    "installer/migration_check.py": "a00fea8a9c67423232f8b62c67035fdcfb92302b865025ecc826cc1904e6d2cc",
+    "installer/package.py": "1fc2d20fa2fe5d22a2dcf6c8cf3db28207d326e2cad8f79b4bfba4286b53dedb",
+    "install.sh": "2acb30194b0b8a10449e87b4df962db626188014143cd885a309873da109cfba",
+    "baseline/tango_v013.py": "01bfbfe8326cf5ce4a87ee676573629e9d70a37a986632885e3aa843935a7057",
+    "spec/user_spec.txt": "82a5694a7c60ee7c0528f06527c236419efb451978f3df615c1ba961c8f8ec68"
+  }
+}

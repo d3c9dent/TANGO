@@ -1,0 +1,27 @@
+{
+  "scope": "Fresh temporary home only; no service started and no native work executed",
+  "checks": [
+    {
+      "command": "--check",
+      "exit_code": 0
+    },
+    {
+      "command": "--apply",
+      "exit_code": 0
+    },
+    {
+      "command": "installed tango --version",
+      "exit_code": 0,
+      "version": "0.3.1-premeeting-inventory"
+    },
+    {
+      "command": "installed tango init",
+      "exit_code": 0
+    },
+    {
+      "command": "installed tango doctor",
+      "exit_code": 0,
+      "ready": false
+    }
+  ]
+}

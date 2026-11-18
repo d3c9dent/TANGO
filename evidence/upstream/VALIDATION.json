@@ -1,0 +1,26 @@
+{
+  "release": "0.3.1 Portable Source",
+  "runtime_and_installer_byte_identical_to_reviewed_source": true,
+  "sha256": {
+    "program/tango.py": "3fe37c25f228e4f7564de95d575ab25bef941fb8cb725b1ad26e8a9c7a4f8814",
+    "program/service.py": "ef1d51b01d96ef88eb9de74b2e2c7e64fb5686f7c167f9f7af3ad305a8d59fdb",
+    "installer/install.py": "b14a2be362dbb6dfa6c2b39fd2b77b9e7083c08a8ca36c01d102a70509a339b2",
+    "installer/migration_check.py": "a00fea8a9c67423232f8b62c67035fdcfb92302b865025ecc826cc1904e6d2cc",
+    "installer/package.py": "1fc2d20fa2fe5d22a2dcf6c8cf3db28207d326e2cad8f79b4bfba4286b53dedb",
+    "install.sh": "2acb30194b0b8a10449e87b4df962db626188014143cd885a309873da109cfba"
+  },
+  "isolated_fresh_install_smoke": {
+    "--check": true,
+    "--apply": true,
+    "init": true,
+    "doctor": true
+  },
+  "doctor_ready": false,
+  "full_tests": 159,
+  "full_tests_passed": 159,
+  "test_seconds": 17.607,
+  "native_5_by_10_acceptance": "not established",
+  "live_home_included": false,
+  "private_original_spec_included": false,
+  "historical_evidence_included": false
+}

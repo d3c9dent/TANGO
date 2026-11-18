@@ -1,0 +1,20 @@
+{
+  "verification_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "backend": "real authenticated Codex CLI",
+  "cli_version": "0.169.0-alpha.11.1",
+  "command": "tango-auto submit (foreground automatic loop)",
+  "goal": "Create result.txt containing exactly TANGO_AUTONOMOUS_SUBMIT_OK followed by one newline",
+  "state": "COMPLETED",
+  "artifact_exact_match": true,
+  "artifact_sha256": "11056e163cd3d30dd57952284cf7c63dfa457ee98da4800f14ba315c85754a80",
+  "execution_turns": 1,
+  "independent_verification_turns": 1,
+  "distinct_observed_sessions": true,
+  "pending_cancellations": 0,
+  "followup_user_message_required": false,
+  "overall_test_deadline_seconds": 240,
+  "full_real_5_by_10_meeting_tested": false,
+  "os_service_registered_or_restart_tested": false,
+  "private_transcripts_or_runtime_included": false
+}

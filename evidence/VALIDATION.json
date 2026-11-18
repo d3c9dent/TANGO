@@ -1,0 +1,17 @@
+{
+  "release": "TANGO 0.4.0 Autonomous English Source",
+  "verification_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "local_test_summary": "LOCAL_TEST_SUMMARY.json",
+  "local_tests_discovered": 223,
+  "local_tests_passed": 217,
+  "linux_only_tests_not_run": 6,
+  "real_submit_execute_verify_complete": "passed",
+  "real_acceptance_details": "REAL_CLI_ACCEPTANCE.json",
+  "real_5_by_10_meeting": "not tested",
+  "os_service_deployment": "not performed",
+  "github_ci": "configured, not executed",
+  "runtime_byte_identical_to_original": false,
+  "private_runtime_included": false,
+  "credentials_included": false
+}

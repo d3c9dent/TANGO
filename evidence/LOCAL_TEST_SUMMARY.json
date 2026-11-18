@@ -1,0 +1,23 @@
+{
+  "platform": "Darwin",
+  "python": "3.13.9",
+  "mode": "portable subset",
+  "discovered": 223,
+  "executed": 217,
+  "passed": 217,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "excluded_linux_tests": [
+    "test_audit_regressions.AuditRegressionTests.test_foreign_namespace_never_signals_matching_local_pid",
+    "test_audit_regressions.AuditRegressionTests.test_same_namespace_wrong_fingerprint_never_signals_pid",
+    "test_audit_regressions.AuditRegressionTests.test_stale_heartbeat_stop_targets_matching_process",
+    "test_process.ProcessTests.test_actual_scheduler_restart_preserves_queue",
+    "test_process.ProcessTests.test_foreign_namespace_status_and_stop_fail_closed",
+    "test_process.ProcessTests.test_stale_heartbeat_stop_and_restart_use_live_identity"
+  ],
+  "seconds": 36.578,
+  "successful": true
+}
